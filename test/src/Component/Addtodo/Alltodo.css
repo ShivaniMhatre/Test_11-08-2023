@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#alltodo{
+    width: 100%;
+    height: 100vh;
+}
+#inner_alltodo{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid red;
+}
+.list{
+    width: 80%;
+    height: 11vh;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.btns{
+    width: 50%;
+    height: 5vh;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

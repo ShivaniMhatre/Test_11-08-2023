@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+#singletodo{
+    width: 100%;
+    height: 100vh;
+}
+#inner_singletodo{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid red;
+}
+
+#todo{
+    width: 50%;
+    height: 20vh;
+    border: 1px solid red;
+    margin: auto;
+}
+
+#btns{
+    width: 40%;
+    height: 7vh;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.btns{
+    width: 100%;
+    height: 100%;
+    border: 1px solid green;
+}
+.btns>button{
+    width: 100%;
+    height: 100%;
+}

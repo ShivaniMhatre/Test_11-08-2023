@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#owntodo{
+    width: 100%;
+    height: 100vh;
+}
+#inner_owntodo{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid red;
+}
+.owntodolist{
+    width: 80%;
+    height: 17vh;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.btns{
+    width: 55%;
+    height: 5vh;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.btns>button{
+    width: 40%;
+    height: 100%;
+}
+
+/* update */
+#update{
+    width: 20%;
+   top: 40%;
+   left: 40%;
+    border: 1px solid black;
+    position: absolute;
+}
